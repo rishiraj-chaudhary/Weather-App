@@ -1,4 +1,4 @@
-🌦️ Weather App by Delta
+🌦️ Weather App by Rishiraj
 A beautiful and responsive weather application built with React that lets you search for current weather conditions in any city around the world.
 
 *Features*
