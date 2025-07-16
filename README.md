@@ -68,16 +68,19 @@ Start searching for weather in your favorite cities!
 
 
 *Project Structure*
+
 src/
-├── components/
-│   ├── WeatherApp.jsx      # Main app component
-│   ├── SearchBox.jsx       # Search input component
-│   └── InfoBox.jsx         # Weather display component
-├── styles/
-│   ├── WeatherApp.css      # Main app styles
-│   ├── SearchBox.css       # Search box styles
-│   └── InfoBox.css         # Weather card styles
-└── App.jsx                 # Root component
+├── components/             # All reusable React components
+│   ├── WeatherApp.jsx      # Main component managing weather logic and layout
+│   ├── SearchBox.jsx       # Handles user input for location/city
+│   └── InfoBox.jsx         # Displays fetched weather data
+├── styles/                 # CSS modules or plain CSS files for styling components
+│   ├── WeatherApp.css      # Styles specific to WeatherApp
+│   ├── SearchBox.css       # Styles for SearchBox
+│   └── InfoBox.css         # Styles for InfoBox
+└── App.jsx                 # Root file, probably rendering <WeatherApp />
+
+
 *How It Works*
 
 Search: Enter a city name in the search box
