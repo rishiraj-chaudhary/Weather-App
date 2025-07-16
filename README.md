@@ -70,15 +70,15 @@ Start searching for weather in your favorite cities!
 *Project Structure*
 
 src/
-├── components/             # All reusable React components
-│   ├── WeatherApp.jsx      # Main component managing weather logic and layout
-│   ├── SearchBox.jsx       # Handles user input for location/city
-│   └── InfoBox.jsx         # Displays fetched weather data
-├── styles/                 # CSS modules or plain CSS files for styling components
-│   ├── WeatherApp.css      # Styles specific to WeatherApp
-│   ├── SearchBox.css       # Styles for SearchBox
-│   └── InfoBox.css         # Styles for InfoBox
-└── App.jsx                 # Root file, probably rendering <WeatherApp />
+├── WeatherApp.jsx          # Main component managing weather logic and layout
+├── SearchBox.jsx           # Handles user input for location/city
+├── InfoBox.jsx             # Displays fetched weather data
+├── WeatherApp.css          # Styles specific to WeatherApp
+├── SearchBox.css           # Styles for SearchBox
+├── InfoBox.css             # Styles for InfoBox
+├── App.jsx                 # Root file, probably rendering
+├── App.css                 # Main app styles
+└── index.css               # Global styles
 
 
 *How It Works*
