@@ -1,0 +1,68 @@
+/* .infoBox {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+} */
+
+
+
+
+.infoBox {
+    text-align: center;
+    padding: 20px;
+}
+
+.infoBox h3 {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.infoBox hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+/* Enhancements for the Card component within InfoBox */
+.MuiCard-root {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.MuiCard-root:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.MuiCardMedia-root {
+    object-fit: cover; /* Ensures the image covers the area */
+}
+
+/* Styling for the text inside the card */
+.MuiCardContent-root p {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.MuiTypography-h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Space between city name and icon */
+    color: #333;
+    font-weight: 600;
+}
