@@ -71,13 +71,21 @@ Start searching for weather in your favorite cities!
 
 src/
 ├── WeatherApp.jsx          # Main component managing weather logic and layout
+
 ├── SearchBox.jsx           # Handles user input for location/city
+
 ├── InfoBox.jsx             # Displays fetched weather data
+
 ├── WeatherApp.css          # Styles specific to WeatherApp
+
 ├── SearchBox.css           # Styles for SearchBox
+
 ├── InfoBox.css             # Styles for InfoBox
+
 ├── App.jsx                 # Root file, probably rendering
+
 ├── App.css                 # Main app styles
+
 └── index.css               # Global styles
 
 
